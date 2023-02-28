@@ -1,0 +1,53 @@
+.boxWrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+}
+.boxBlock{
+    width: 600px;
+    min-height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 22px;
+}
+.box{
+    display: flex;
+    padding: 15px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between;
+}
+.infoBlock{
+    display: flex;
+}
+.name{
+    margin-right: 15px;
+}
+.age{
+    margin-right: 15px;
+}
+.buttonsBlock{
+    display: flex;
+}
+.buttonsBlock button{
+    padding: 8px;
+    border:none;
+    cursor: pointer;
+    color:#fff;
+    margin: 0 5px;
+}
+.edit{
+    background-color: #0467b9;
+}
+.delete{
+    background-color: #ef5858;
+}
+.edit:hover{
+    background-color: #1d8be6;
+}
+.delete:hover{
+    background-color: #ca2d2d;
+}

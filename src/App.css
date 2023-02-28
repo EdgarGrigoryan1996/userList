@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +40,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/**/
+
+
+
+.edit-Block-background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(40, 44, 52, 0.72);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit-block{
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  position: relative;
+}
+.edit-block span{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
 }
